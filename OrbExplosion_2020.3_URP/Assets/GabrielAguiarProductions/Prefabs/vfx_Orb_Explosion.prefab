@@ -48,9 +48,30 @@ VisualEffect:
   m_ResourceVersion: 1
   m_PropertySheet:
     m_Float:
-      m_Array: []
+      m_Array:
+      - m_Value: 0.05
+        m_Name: DistortionAmount
+        m_Overridden: 1
+      - m_Value: 1
+        m_Name: DistortionPower
+        m_Overridden: 1
+      - m_Value: 50
+        m_Name: DistortionScale
+        m_Overridden: 1
+      - m_Value: 0
+        m_Name: Delay
+        m_Overridden: 1
+      - m_Value: 215
+        m_Name: DomeSize
+        m_Overridden: 1
+      - m_Value: 0.7
+        m_Name: YOffset
+        m_Overridden: 1
     m_Vector2f:
-      m_Array: []
+      m_Array:
+      - m_Value: {x: 0.3, y: 0}
+        m_Name: DistortionSpeed
+        m_Overridden: 1
     m_Vector3f:
       m_Array: []
     m_Vector4f:
@@ -88,6 +109,8 @@ VFXRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   m_StaticBatchInfo:
@@ -158,7 +181,10 @@ VisualEffect:
   m_ResourceVersion: 1
   m_PropertySheet:
     m_Float:
-      m_Array: []
+      m_Array:
+      - m_Value: 1.1
+        m_Name: Size
+        m_Overridden: 1
     m_Vector2f:
       m_Array: []
     m_Vector3f:
@@ -421,7 +447,10 @@ VisualEffect:
   m_ResourceVersion: 1
   m_PropertySheet:
     m_Float:
-      m_Array: []
+      m_Array:
+      - m_Value: 5.5
+        m_Name: Size
+        m_Overridden: 1
     m_Vector2f:
       m_Array: []
     m_Vector3f:
